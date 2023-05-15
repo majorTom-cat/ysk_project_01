@@ -1,0 +1,163 @@
+.login_page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: #fff;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.head > h1,
+h5 {
+  font-family: "Inter";
+  font-style: italic;
+ 
+}
+.head {
+   margin-top: 50px;
+}
+
+.login_titleWrap {
+  font-size: 26px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.contentWrap {
+  flex: 1;
+  overflow: hidden;
+}
+
+.hr-sect {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+  content: "";
+  flex-grow: 1;
+  background: rgb(0, 0, 0);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 15px;
+}
+
+.inputTitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.log_btn {
+  display: flex;
+}
+
+.log_btn > button {
+  width: 500px;
+  height: 50px;
+  margin: 20px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.log_btn > button > img {
+  width: 35px;
+  height: 35px;
+  margin-right: auto;
+}
+
+.google {
+  float: left;
+  background: #ffffff;
+}
+
+.kakao {
+  float: center;
+  background: #fae300;
+}
+
+.github {
+  float: right;
+  color: white;
+  background: #333333;
+}
+
+.inputWrap {
+  display: flex;
+  width: 60%;
+  height: 65px;
+  float: left;
+  border: none;
+  padding: 5px;
+  background-color: white;
+}
+
+.input {
+  width: 40%;
+  float: left;
+  outline: none;
+  border: none;
+  height: 17px;
+  margin-left: 20;
+  border-radius: 30px;
+  font-weight: 400;
+}
+
+.input::placeholder {
+  color: #dadada;
+}
+
+.bottomButton {
+  width: 30%;
+  height: 120px;
+  position: relative;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 48px;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  overflow: hidden;
+}
+.nav > button {
+  background-color: #fff;
+  width: 25%;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.account {
+  float: left;
+  width: 100%;
+}
+.id {
+  float: center;
+}
+.pw {
+  float: right;
+}
+
+.bottomButton:disabled {
+  background: #2a7de1;
+  color: white;
+}

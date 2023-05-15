@@ -1,0 +1,199 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1150px;
+  height: 647px;
+  align-items: center;
+  background-color: #ffd7a99d;
+  padding: 20px;
+  border-radius: 10px;
+  padding-right: 20px;
+  margin-top: 10%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+form > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  width: 100px;
+  display: inline-block;
+  text-align: left;
+  padding-right: 3px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.h1 {
+  position: absolute;
+  left: 1;
+  top: 0;
+  margin-top: 50px;
+  text-align: c;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.in,
+input[type="number"],
+textarea {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  font-size: 15px;
+}
+
+textarea {
+  width: 950px;
+  height: 221px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* 버튼, 파일버튼 */
+
+input[type="file"]::file-selector-button {
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 1;
+  position: static;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.button-container button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+#file {
+  width: 250px;
+}
+
+#price {
+  width: 198px;
+}
+
+.Thing h3 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* 주소선택 버튼 설정 */
+
+.location-wrapper label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.location-wrapper input[type="text"],
+.location-wrapper input[type="file"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  height: 36px;
+}
+
+.location-wrapper button {
+  height: 33px;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.location-wrapper button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+/*하단 버튼 */
+
+.modify-button {
+  background-color: #ff8b2d;
+  color: #fff;
+  width: 70px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.cancel-button {
+  background-color: #d9d9d9;
+  color: #000000;
+  width: 70px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* holder 정렬 */
+
+.writeInput {
+  text-align: right;
+  padding-right: 15px;
+  border: none;
+  font-size: 15px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+}
+input,
+textarea:focus {
+  outline-color: #ff8b2d;
+}
+
+.logo_image img {
+  margin-top: 20px;
+}

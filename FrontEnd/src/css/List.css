@@ -1,0 +1,35 @@
+.scroll__container {
+  position: fixed;
+  right: 1%;
+  bottom: 1%;
+  z-index: 1;
+}
+.top {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px 10px;
+  background-color: #ff8a2d;
+  color: #ffffff;
+  border: 1px solid rgb(210, 204, 193);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  width: 60px; /*수정*/
+}
+.top:hover {
+  color: "white";
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}

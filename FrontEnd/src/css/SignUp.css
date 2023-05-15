@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nanum Gothic", "Noto Sans";
+}
+
+.signUpTitle {
+  width: 500px;
+  text-align: center;
+  margin: 50px auto; /*수정*/
+  padding: 10px;
+  color: #3f3f3f;
+}
+.signUp_Form {
+  padding: 30px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: relative;
+  height: 370px;
+}
+
+.signUp_Form_find {
+  padding: 30px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: relative;
+  height: 180px;
+}
+
+.signUp_Form_update {
+  padding: 30px;
+  padding-top: 10px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  position: relative;
+  height: 420px;
+}
+
+.signTbl {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.signTbl tr td {
+  /*수정*/
+  font-weight: bold;
+}
+
+/* input 입력창들 */
+.find_id,
+.sign_pass0,
+.sign_pass1,
+.sign_pass2,
+.sign_userName,
+.sign_userTel {
+  border: none;
+  background: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  margin: 10px 0;
+}
+.sign_id {
+  border: none;
+  background: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  margin: 10px 10px;
+
+  float: left;
+}
+.check_id {
+  display: block;
+  border: none;
+  background: #ff8a2d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+  margin: 10px auto;
+  width: 90px;
+  height: 34px;
+  font-size: 15px;
+  font-weight: bold;
+}
+td > input:focus {
+  outline: none !important;
+  background-color: #fcecdd;
+}
+.sign_submitBtn {
+  display: block;
+  border: none;
+  background: #ff8a2d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  width: 100px;
+  margin: 50px auto;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sign_submitBtn:hover {
+  background-color: #ffc288;
+  color: white;
+  font-weight: bold;
+}
+.logo_1 {
+  margin-top: 50px;
+  margin-bottom: -40px;
+}

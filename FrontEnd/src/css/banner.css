@@ -1,0 +1,9 @@
+.slick-slide div {
+  cursor: pointer;
+}
+.slick-slide img {
+  object-fit: cover;
+  height: 25%;
+  width: 100%;
+  box-sizing: border-box;
+}

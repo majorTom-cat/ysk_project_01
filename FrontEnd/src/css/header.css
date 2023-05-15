@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.serach_head {
+  width: 90%;
+  height: 30px;
+  border: none;
+}
+.serach_head:focus {
+  outline: none;
+}
+.search1 {
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+nav .Login_Join a {
+  color: #3c7bfe;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+nav .Login_Join a:hover {
+  text-decoration: underline;
+}
